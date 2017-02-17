@@ -48,8 +48,8 @@
       "2012 - 2013 学年校学业优秀、科技创新**一等奖学金**",
 	  "2013 - 2014 学年校学业优秀**一等奖学金**",
 	  "2012 - 2013   河海大学物联网工程学院学生会**秘书处执行秘书长**",
-	  "2013 - 11 江苏省高校第十届大学生物理及实验科技作品创新竞赛**实物组三等奖**",
-	  "2014 - 9  江苏省IT杯电子设计竞赛**二等奖**"  
+	  "2013.11  江苏省高校第十届大学生物理及实验科技作品创新竞赛**实物组三等奖**",
+	  "2014.09  江苏省IT杯电子设计竞赛**二等奖**"  
     ]
   },{
     "type": "（硕士）",
@@ -59,20 +59,21 @@
     "end": "2018",
     "honor": [
       "2015 - 2017 学年校**二等奖学金**",
+	  "东南大学信息科学与工程学院研究生会**执行秘书长**",
       "东南大学学生职业发展协会**SCDA副会长**"
     ]
   }],
   "experience": [{
     "type": "internship",
     "techtype": "AngularJS",
-    "place": "东南大学DreamCreater工作室",
+    "place": "东南大学DreamCreator工作室",
     "start": "2016.10",
     "end": "2017.01",
     "name": "达人荟服务器后台管理界面开发",
     "description": [
-      "开发并维护东南大学达人荟app应用后台管理界面`",
-      "使用 `AngulrJS`、`JQuery`编写管理界面",
-	  "使用`Ajax`与后台服务器通信"
+      "参与开发东南大学达人荟app应用后台管理界面",
+      "使用 `AngulrJS`、`JQuery`及其插件实现前端组件",
+	  "使用`Ajax`实现与后台服务器数据交互"
 
     ],
     "stack": ["nodejs", "express", "mocha", "chai", "coffeescript", "mongodb"]
@@ -84,9 +85,10 @@
     "source": "https://github.com/SuperKTSF/stockdog",
 
     "description": [
-      "一个实时监控和管理股票监视列表的应用",
+      "实时监控和管理股票监视列表的应用",
       "使用`Yeoman`搭建项目，用`npm`和`bower`进行前后端包管理，使用`grunt`完成自动化构建",
-      "以`AngularJS`为核心的SPA,结合`BootStrap`达到理想的动态监视效果"
+      "以`AngularJS`为核心的SPA,结合`BootStrap`达到理想的动态监视效果",
+	  "使用`LocalStorage`实现数据本地调用和存储"
     ],
     "stack": ["bower", "npm", "AngularJS","Yeoman","Bootstrap"],
     "compatibility": "IE9+"
@@ -99,9 +101,8 @@
     "source": "https://github.com/joyeecheung/resume",
 
     "description": [
-      "这是放在`Github`网站的的个人主页",
-      "主要以`Jquery`以及各种插件完成，结合各种`CSS3`特效"
-      
+       "`GitHub`个人开源主页",
+      "基于`Jquery`以及各种插件完成，结合各种`CSS3`特效，创新使用`swipebox`等组件"
     ],
     "stack": ["jade", "less", "gulp"],
     "compatibility": "IE9+"
@@ -123,10 +124,10 @@
     }, {
       "summary": "前端工程实践",
       "description": [
-        "使用`AngularJS` 编写过较为复杂的 CRUD SPA，了解`React` 及前端 `MV*` 模型",
+        "使用`AngularJS` 编写过较为复杂的 CRUD SPA",
         "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展, 阅读过部分源代码",
         "在项目中使用过 `RequireJS` / `Browserify` / `Bower`  等多种模块化解决方案",
-        "在项目中使用过 `Less` / `Sass`/ `TypeScript` 等预处理/后处理工具",
+        "在项目中使用过 `Less` / `Sass` 等预处理/后处理工具",
         "日常使用 `Grunt` 或 `Gulp` 改进工作流",
         "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践"
       ]
@@ -143,8 +144,8 @@
     }, {
       "summary": "其他",
       "description": [
-	    "使用`Java`搭建过简单的服务器",
-        "有使用 `MongoDB` / `MySQL` 数据库，`Redis` 缓存，`nginx` 反向代理的经验",
+	    "使用`Java`搭建过简单的服务器，熟悉`Servlets&JSP`",
+        "有使用 `MongoDB` / `MySQL` 及`Redis` 缓存的经验",
         "了解 `HTTP`（1.x / 2）、  `WebSocket` 等协议"
       ]
     }]
@@ -154,6 +155,8 @@
       "能够使用 `LaTeX` 及 `Markdown` 编写得体的中英文文档或论文，具备良好的技术交流能力",
       "日常使用 `Git` 与 `Sublime Text` / `WebStorm` 进行开发，也乐于尝试新工具",
       "能够使用 `Photoshop` 完成简单的设计",
+	  "对常见的数据结构和算法有一定的了解",
+	  "有极强的团队合作与沟通能力，善于组织与管理",
 	  "了解无线通信的基本原理，掌握通信行业的相关知识"
     ]
   }]
